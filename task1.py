@@ -24,5 +24,6 @@ def total_salary(path: str) -> tuple [int, int]:
 
 
 
-total_salary("files/salary_file.txt")
+total, average = total_salary("files/salary_file.txt")
+print(f"Total salary {total}, Average salary {average}")
 
